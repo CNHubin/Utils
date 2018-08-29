@@ -63,7 +63,7 @@
 
   ```
   	dependencies {
-  	        implementation 'com.github.CNHubin:UtilDemo:1.0.0'
+  	         implementation 'com.github.CNHubin:Utils:1.0.1'
   	}
   ```
 
