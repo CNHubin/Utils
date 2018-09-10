@@ -46,6 +46,14 @@
 
   图片处理与转化的工具
 
+* ServiceUtils
+
+  服务工具，提供查看当前服务是否在运行等函数
+
+* Ipv4Utils
+
+  网络ip地址工具，获取校验本机ipv4地址
+
 ## 用法
 
 * 引入JitPack仓库
@@ -63,7 +71,7 @@
 
   ```
   	dependencies {
-  	         implementation 'com.github.CNHubin:Utils:1.0.1'
+  	         implementation 'com.github.CNHubin:Utils:1.0.2'
   	}
   ```
 
