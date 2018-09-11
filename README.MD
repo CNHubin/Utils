@@ -71,7 +71,7 @@
 
   ```
   	dependencies {
-  	         implementation 'com.github.CNHubin:Utils:1.0.3'
+  	         implementation 'com.github.CNHubin:Utils:1.0.4'
   	}
   ```
 
