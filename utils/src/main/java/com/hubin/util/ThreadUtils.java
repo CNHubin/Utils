@@ -26,6 +26,17 @@ public class ThreadUtils {
     }
 
     /**
+     * 当前是否在主线程
+     * @return
+     */
+    public static boolean isMainThread() {
+        if (Looper.myLooper() == Looper.getMainLooper()) {
+            return true;
+        }
+        return false;
+    }
+
+    /**
      * 创建一个 CPU核心数+1 大小的线程池
      */
     private static final ExecutorService service = Executors.newFixedThreadPool(Runtime.getRuntime()
